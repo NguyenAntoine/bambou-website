@@ -18,45 +18,33 @@
       </div>
     </parallax>
     <div class="main main-raised">
-      <div class="section section-basic">
+      <div class="section section-carousel">
         <div class="container">
-          <div class="title">
-            <h2>Basic Elements</h2>
-          </div>
-          <nav-pills></nav-pills>
-        </div>
-      </div>
-      <div class="section section-javascript">
-        <div class="container">
-          <javascript-components></javascript-components>
+          <carousel></carousel>
         </div>
       </div>
       <div class="section">
         <div class="container text-center">
           <div class="md-layout">
-              <div class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center">
-                  <h2>Completed with examples</h2>
-                  <h4>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful kit.</h4>
-              </div>
+            <div class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center">
+              <h2>Completed with examples</h2>
+              <h4>The kit comes with three pre-built pages to help you get started faster. You can change the text and
+                images and you're good to go. More importantly, looking at them will give you a picture of what you can
+                built with this powerful kit.</h4>
+            </div>
           </div>
         </div>
       </div>
       <div class="section section-examples">
         <div class="container-fluid text-center">
-            <div class="md-layout">
-                <div class="md-layout-item">
-                    <a href="#/landing" target="_blank">
-                        <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
-                    </a>
-                    <md-button href="#/landing" class="md-simple md-success md-lg">View Landing Page</md-button>
-                </div>
-                <div class="md-layout-item">
-                  <a href="#/profile" target="_blank">
-                      <img :src="profile" alt="Rounded Image" class="img-raised rounded img-fluid">
-                  </a>
-                  <md-button href="#/profile" class="md-simple md-success md-lg">View Profile Page</md-button>
-                </div>
+          <div class="md-layout">
+            <div class="md-layout-item">
+              <a href="#/menu">
+                <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
+              </a>
+              <md-button href="#/menu" class="md-simple md-success md-lg">Voir le menu</md-button>
             </div>
+          </div>
         </div>
       </div>
       <div class="section section-download" id="downloadSection">
@@ -64,7 +52,7 @@
           <div class="sharing-area text-center">
             <div class="md-layout">
               <div class="md-layout-item">
-                <h3>Thank you for supporting us!</h3>
+                <h3>Merci de nous soutenir!</h3>
               </div>
             </div>
 
@@ -77,32 +65,14 @@
       </div>
     </div>
   </div>
-
-
 </template>
 
 <script>
-import BasicElements from "./components/BasicElementsSection";
-import Navigation from "./components/NavigationSection";
-import SmallNavigation from "./components/SmallNavigationSection";
-import Tabs from "./components/TabsSection";
-import NavPills from "./components/NavPillsSection";
-import Notifications from "./components/NotificationsSection";
-import TypographyImages from "./components/TypographyImagesSection";
-import JavascriptComponents from "./components/JavascriptComponentsSection";
-import { LoginCard } from "@/components";
+import Carousel from "./components/CarouselSection";
 
 export default {
   components: {
-    BasicElements,
-    Navigation,
-    SmallNavigation,
-    Tabs,
-    NavPills,
-    Notifications,
-    TypographyImages,
-    JavascriptComponents,
-    LoginCard
+    Carousel
   },
   name: "index",
   bodyClass: "index-page",
@@ -127,10 +97,6 @@ export default {
       type: String,
       default: require("@/assets/img/leaf1.png")
     },
-    signup: {
-      type: String,
-      default: require("@/assets/img/city.jpg")
-    },
     landing: {
       type: String,
       default: require("@/assets/img/landing.jpg")
@@ -142,30 +108,18 @@ export default {
   },
   data() {
     return {
-      firstname: null,
-      email: null,
-      password: null,
       leafShow: false
     };
   },
   methods: {
     leafActive() {
-      if (window.innerWidth < 768) {
-        this.leafShow = false;
-      } else {
-        this.leafShow = true;
-      }
+      this.leafShow = window.innerWidth >= 768;
     }
   },
   computed: {
     headerStyle() {
       return {
         backgroundImage: `url(${this.image})`
-      };
-    },
-    signupImage() {
-      return {
-        backgroundImage: `url(${this.signup})`
       };
     }
   },
