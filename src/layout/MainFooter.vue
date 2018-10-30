@@ -6,18 +6,8 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="https://www.creative-tim.com">
-                            Creative Tim
-                        </a>
-                    </li>
-                    <li>
                         <a href="https:///presentation.creative-tim.com">
                             About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https:///blog.creative-tim.com">
-                            Blog
                         </a>
                     </li>
                     <li>
