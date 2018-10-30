@@ -187,53 +187,53 @@
 </template>
 
 <script>
-  export default {
-    bodyClass: "landing-page",
-    props: {
-      header: {
-        type: String,
-        default: require("@/assets/img/bg7.jpg")
-      },
-      teamImg1: {
-        type: String,
-        default: require("@/assets/img/faces/avatar.jpg")
-      },
-      teamImg2: {
-        type: String,
-        default: require("@/assets/img/faces/christian.jpg")
-      },
-      teamImg3: {
-        type: String,
-        default: require("@/assets/img/faces/kendall.jpg")
-      }
+export default {
+  bodyClass: "landing-page",
+  props: {
+    header: {
+      type: String,
+      default: require("@/assets/img/bg7.jpg")
     },
-    data() {
-      return {
-        name: null,
-        email: null,
-        message: null
-      };
+    teamImg1: {
+      type: String,
+      default: require("@/assets/img/faces/avatar.jpg")
     },
-    computed: {
-      headerStyle() {
-        return {
-          backgroundImage: `url(${this.header})`
-        };
-      }
+    teamImg2: {
+      type: String,
+      default: require("@/assets/img/faces/christian.jpg")
+    },
+    teamImg3: {
+      type: String,
+      default: require("@/assets/img/faces/kendall.jpg")
     }
-  };
+  },
+  data() {
+    return {
+      name: null,
+      email: null,
+      message: null
+    };
+  },
+  computed: {
+    headerStyle() {
+      return {
+        backgroundImage: `url(${this.header})`
+      };
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
-  .md-card-actions.text-center {
-    display: flex;
-    justify-content: center !important;
-  }
-  .contact-form {
-    margin-top: 30px;
-  }
+.md-card-actions.text-center {
+  display: flex;
+  justify-content: center !important;
+}
+.contact-form {
+  margin-top: 30px;
+}
 
-  .md-has-textarea + .md-layout {
-    margin-top: 15px;
-  }
+.md-has-textarea + .md-layout {
+  margin-top: 15px;
+}
 </style>
