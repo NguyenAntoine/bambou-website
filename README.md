@@ -23,3 +23,15 @@ yarn run lint
 # delete node_modules & install all libraries with yarn
 yarn run install:clean
 ```
+## Deployment
+
+``` bash
+# build for production with minification
+yarn run build
+
+# run script docker for linux environment
+./docker-run.sh
+
+# run script docker for windows environment
+.\docker-run.bat
+```
