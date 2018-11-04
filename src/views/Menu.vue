@@ -8,30 +8,24 @@
             <div class="md-layout-item md-size-50 mx-auto">
               <div class="profile">
                 <div class="avatar">
-                  <img :src="img" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+                  <img :src="img" alt="Menu" class="img-raised rounded-circle img-fluid">
                 </div>
                 <div class="name">
-                  <h3 class="title">Carla Hortensia</h3>
-                  <h6>Designer</h6>
-                  <md-button href="javascript:void(0)" class="md-just-icon md-simple md-dribbble"><i
-                    class="fab fa-dribbble"></i></md-button>
-                  <md-button href="javascript:void(0)" class="md-just-icon md-simple md-twitter"><i
-                    class="fab fa-twitter"></i></md-button>
-                  <md-button href="javascript:void(0)" class="md-just-icon md-simple md-pinterest"><i
-                    class="fab fa-pinterest"></i></md-button>
+                  <h3 class="title">Menu</h3>
+                  <h5 class="title">Réservation au 04.67.03.02.71</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="description text-center">
-            <p>An artist of considerable range, Chet Faker — the name taken by Melbourne-raised, Brooklyn-based Nick
-              Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid
-              groove structure. </p>
+            <p>Nos plats sont cuisinés et faits maison par notre cuisinière, Thi-Diem Nguyen. Sa cuisine tout droit
+            venue du Viêt-Nam a su fusionné les saveurs françaises et les spécialités asiatiques chinoises et
+            vietnamiennes.</p>
           </div>
           <div class="profile-tabs">
             <tabs
-              :tab-name="['Studio', 'Work', 'Favorite']"
-              :tab-icon="['camera', 'palette', 'favorite']"
+              :tab-name="['Entrée', 'Plats froids', 'Plats chauds', 'Nems', 'Desserts', 'Boissons']"
+              :tab-icon="['room_service', 'ac_unit', 'restaurant', 'local_dining', 'cake', 'local_bar']"
               plain
               nav-pills-icons
               color-button="success">
@@ -94,7 +88,7 @@ export default {
   data() {
     return {
       tabPane1: [
-        { mage: require("@/assets/img/examples/studio-1.jpg") },
+        { image: require("@/assets/img/examples/studio-1.jpg") },
         { image: require("@/assets/img/examples/studio-2.jpg") },
         { image: require("@/assets/img/examples/studio-4.jpg") },
         { image: require("@/assets/img/examples/studio-5.jpg") }
@@ -122,7 +116,7 @@ export default {
     },
     img: {
       type: String,
-      default: require("@/assets/img/faces/christian.jpg")
+      default: require("@/assets/img/menu.jpg")
     }
   },
   computed: {
