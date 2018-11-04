@@ -87,9 +87,15 @@
               </div>
             </div>
 
-            <md-button class="md-twitter"><i class="fab fa-twitter"></i>Tweetez-nous</md-button>
-            <md-button class="md-facebook"><i class="fab fa-facebook-square"></i> Partagez</md-button>
-            <md-button class="md-instagram"><i class="fab fa-instagram"></i> Suivez-nous</md-button>
+            <md-button href="https://twitter.com/LeBambou" target="_blank" class="md-twitter">
+              <i class="fab fa-twitter"></i>Tweetez-nous
+            </md-button>
+            <md-button href="https://www.facebook.com/LeBambou" target="_blank" class="md-facebook">
+              <i class="fab fa-facebook-square"></i> Partagez
+            </md-button>
+            <md-button href="https://www.instagram.com/LeBambou" target="_blank" class="md-instagram">
+              <i class="fab fa-instagram"></i> Suivez-nous
+            </md-button>
           </div>
         </div>
       </div>
