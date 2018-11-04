@@ -39,10 +39,7 @@
               <md-list-item href="https://www.facebook.com/LeBambou" target="_blank">
                 <i class="fab fa-facebook-square"></i>
                 <p class="hidden-lg">Facebook</p>
-                <md-tooltip md-direction="bottom">
-                  <i class="material-icons">plus_one</i>
-                  <i class="material-icons">thumb_up_alt</i>
-                </md-tooltip>
+                <md-tooltip md-direction="bottom">Aimez notre page Facebook</md-tooltip>
               </md-list-item>
               <md-list-item href="https://www.instagram.com/LeBambou" target="_blank">
                 <i class="fab fa-instagram"></i>
