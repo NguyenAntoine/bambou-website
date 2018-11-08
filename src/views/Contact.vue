@@ -4,10 +4,9 @@
       <div class="container">
         <div class="md-layout">
           <div class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100">
-            <h1 class="title">Your Story Starts With Us.</h1>
-            <h4>Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
+            <h1 class="title">Commandez au 04.67.03.02.71</h1>
             <br>
-            <md-button href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="md-success md-lg" target="_blank"><i class="fas fa-play"></i> Watch video</md-button>
+            <md-button href="tel:04 67 03 02 71" class="md-success md-lg"><i class="fas fa-phone"></i> Appeler</md-button>
           </div>
         </div>
       </div>
@@ -17,37 +16,43 @@
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center">
-              <h2 class="title text-center">Let's talk product</h2>
-              <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+              <h2 class="title text-center">Contact</h2>
             </div>
           </div>
           <div class="features text-center">
             <div class="md-layout">
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
-                  <div class="icon icon-info">
-                    <md-icon>chat</md-icon>
+                  <div class="icon icon-success">
+                    <md-icon>schedule</md-icon>
                   </div>
-                  <h4 class="info-title">Free Chat</h4>
-                  <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                  <h4 class="info-title">Horaires</h4>
+                  <p>Du lundi au samedi,<br>
+                    De 11h00 à 14h00 et de 18h00 à 21h00.<br>
+                    Et le dimanche, de 18h00 à 21h00.</p>
                 </div>
               </div>
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
-                  <div class="icon icon-success">
-                    <md-icon>verified_user</md-icon>
+                  <div class="icon icon-info">
+                    <md-icon>location_on</md-icon>
                   </div>
-                  <h4 class="info-title">Verified Users</h4>
-                  <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                  <h4 class="info-title">Adresse</h4>
+                  <p>Le Bambou<br>
+                  246 Avenue de Lodève<br>
+                  34080 Montpellier<br>
+                  Tél: <a href="tel:04 67 03 02 71">04.67.03.02.71</a></p>
                 </div>
               </div>
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
                   <div class="icon icon-danger">
-                    <md-icon>fingerprint</md-icon>
+                    <md-icon>euro_symbol</md-icon>
                   </div>
-                  <h4 class="info-title">Fingerprint</h4>
-                  <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                  <h4 class="info-title">Moyens de paiement</h4>
+                  <p>Carte bleue<br>
+                  Espèce<br>
+                  Tickets restaurants</p>
                 </div>
               </div>
             </div>
@@ -56,129 +61,10 @@
       </div>
       <div class="section text-center">
         <div class="container">
-          <h2 class="title">Here is our team</h2>
-          <div class="team">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img :src="teamImg1" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
-                    </div>
-                    <h4 class="card-title">Gigi Hadid
-                      <br>
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img :src="teamImg2" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
-                    </div>
-                    <h4 class="card-title">Carla Hortensia
-                      <br>
-                      <small class="card-description text-muted">Designer</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-linkedin"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img :src="teamImg3" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
-                    </div>
-                    <h4 class="card-title">Kendall Jenner
-                      <br>
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-contacts">
-        <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Work with us</h2>
-              <h4 class="text-center description">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will responde get back to you in a couple of hours.</h4>
-              <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
-                  </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
-                  </div>
-                </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
-            </div>
+          <h2 class="title">Localisation</h2>
+          <div class="iframe-container">
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCSm4u2ZqUemieLJT4-Q_RwQvZlpEiN6eE&q=246+Avenue+de+Lodeve,+34080+Montpellier" allowfullscreen>
+            </iframe>
           </div>
         </div>
       </div>

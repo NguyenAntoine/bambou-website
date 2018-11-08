@@ -28,57 +28,12 @@
             <div class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center">
               <h2>Le Bambou</h2>
               <h4>Situé à Celleneuve, à 10 minutes de Montpellier Centre, le traiteur Le Bambou vous accueille tous les
-              jours, de 11h00 à 14h00 et de 18h00 à 21h00, du lundi au samedi et le dimanche soir, afin de vous proposer
-              des plats asiatiques avec des spécialités chinoises et vietnamiennes.</h4>
+              jours afin de vous proposer des plats asiatiques avec des spécialités chinoises et vietnamiennes.</h4>
             </div>
           </div>
         </div>
       </div>
-      <div class="section section-examples">
-        <div class="container-fluid text-center">
-          <div class="md-layout">
-            <div class="md-layout-item">
-              <a href="#/menu">
-                <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
-              </a>
-              <md-button href="#/menu" class="md-simple md-success md-lg">Voir les entrées</md-button>
-            </div>
-            <div class="md-layout-item">
-              <a href="#/menu">
-                <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
-              </a>
-              <md-button href="#/menu" class="md-simple md-success md-lg">Voir les plats froids</md-button>
-            </div>
-            <div class="md-layout-item">
-              <a href="#/menu">
-                <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
-              </a>
-              <md-button href="#/menu" class="md-simple md-success md-lg">Voir les plats chauds</md-button>
-            </div>
-          </div>
-          <div class="md-layout">
-            <div class="md-layout-item">
-              <a href="#/menu">
-                <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
-              </a>
-              <md-button href="#/menu" class="md-simple md-success md-lg">Voir les nems</md-button>
-            </div>
-            <div class="md-layout-item">
-              <a href="#/menu">
-                <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
-              </a>
-              <md-button href="#/menu" class="md-simple md-success md-lg">Voir les desserts</md-button>
-            </div>
-            <div class="md-layout-item">
-              <a href="#/menu">
-                <img :src="landing" alt="Rounded Image" class="img-raised rounded img-fluid">
-              </a>
-              <md-button href="#/menu" class="md-simple md-success md-lg">Voir les boissons</md-button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-download" id="downloadSection">
+      <div class="section section-support">
         <div class="container">
           <div class="sharing-area text-center">
             <div class="md-layout">
@@ -169,7 +124,7 @@ export default {
 };
 </script>
 <style lang="scss">
-.section-download {
+.section-support {
   .md-button + .md-button {
     margin-left: 5px;
   }

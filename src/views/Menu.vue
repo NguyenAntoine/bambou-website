@@ -12,7 +12,7 @@
                 </div>
                 <div class="name">
                   <h3 class="title">Menu</h3>
-                  <h5 class="title">Réservation au 04.67.03.02.71</h5>
+                  <h5 class="title">Prenez une commande au <a href="tel:04 67 03 02 71">04.67.03.02.71</a></h5>
                 </div>
               </div>
             </div>
