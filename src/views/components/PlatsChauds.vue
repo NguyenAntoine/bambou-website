@@ -21,7 +21,7 @@
           <div class="md-layout-item md-size-50 mx-auto">
             <img :src="vermicelleChampignonNoir" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
           </div>
-          <h4 class="card-title">Vermicelle aux champignons noirs
+          <h4 class="card-title">Vermicelle soja aux champignons noirs
             <br>
             <small class="card-description text-muted">Vegan</small>
           </h4>
