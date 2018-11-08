@@ -68,7 +68,7 @@
           <div class="md-layout-item md-size-50 mx-auto">
             <img :src="litchi" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
           </div>
-          <h4 class="card-title">Boissons au Litchi
+          <h4 class="card-title">Boisson au Litchi
             <br>
             <small class="card-description text-muted">33cl</small>
           </h4>
