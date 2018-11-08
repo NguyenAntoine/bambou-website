@@ -8,7 +8,7 @@
           </div>
           <h4 class="card-title">Vermicelle chinois
             <br>
-            <small class="card-description text-muted">Végétarien</small>
+            <small class="card-description text-muted">Vegan</small>
           </h4>
 
           <md-card-content>
