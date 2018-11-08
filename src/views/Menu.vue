@@ -24,7 +24,7 @@
           </div>
           <div class="profile-tabs">
             <tabs
-              :tab-name="['Entrée', 'Plats froids', 'Plats chauds', 'Nems', 'Desserts', 'Boissons']"
+              :tab-name="['Entrées', 'Plats froids', 'Plats chauds', 'Nems', 'Desserts', 'Boissons']"
               :tab-icon="['room_service', 'ac_unit', 'restaurant', 'local_dining', 'cake', 'local_bar']"
               plain
               nav-pills-icons
@@ -32,42 +32,22 @@
 
               <!-- here you can add your content for tab-content -->
               <template slot="tab-pane-1">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
-                    <img :src="tabPane1[0].image" class="rounded">
-                    <img :src="tabPane1[1].image" class="rounded">
-                  </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
-                    <img :src="tabPane1[3].image" class="rounded">
-                    <img :src="tabPane1[2].image" class="rounded">
-                  </div>
-                </div>
+                <entrees></entrees>
               </template>
               <template slot="tab-pane-2">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
-                    <img :src="tabPane2[0].image" class="rounded">
-                    <img :src="tabPane2[1].image" class="rounded">
-                    <img :src="tabPane2[2].image" class="rounded">
-                  </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
-                    <img :src="tabPane2[3].image" class="rounded">
-                    <img :src="tabPane2[4].image" class="rounded">
-                  </div>
-                </div>
+                <plats-froids></plats-froids>
               </template>
               <template slot="tab-pane-3">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
-                    <img :src="tabPane3[0].image" class="rounded">
-                    <img :src="tabPane3[1].image" class="rounded">
-                  </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
-                    <img :src="tabPane3[2].image" class="rounded">
-                    <img :src="tabPane3[3].image" class="rounded">
-                    <img :src="tabPane3[4].image" class="rounded">
-                  </div>
-                </div>
+                <plats-chauds></plats-chauds>
+              </template>
+              <template slot="tab-pane-4">
+                <nems></nems>
+              </template>
+              <template slot="tab-pane-5">
+                <desserts></desserts>
+              </template>
+              <template slot="tab-pane-6">
+                <boissons></boissons>
               </template>
             </tabs>
           </div>
@@ -79,10 +59,22 @@
 
 <script>
 import Tabs from "@/components/Tabs";
+import Entrees from "./components/Entrees";
+import PlatsFroids from "./components/PlatsFroids";
+import PlatsChauds from "./components/PlatsChauds";
+import Nems from "./components/Nems";
+import Desserts from "./components/Desserts";
+import Boissons from "./components/Boissons";
 
 export default {
   components: {
-    Tabs
+    Tabs,
+    Entrees,
+    PlatsFroids,
+    PlatsChauds,
+    Nems,
+    Desserts,
+    Boissons
   },
   bodyClass: "profile-page",
   data() {
