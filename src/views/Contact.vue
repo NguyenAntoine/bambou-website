@@ -63,7 +63,7 @@
         <div class="container">
           <h2 class="title">Localisation</h2>
           <div class="iframe-container">
-            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCSm4u2ZqUemieLJT4-Q_RwQvZlpEiN6eE&q=246+Avenue+de+Lodeve,+34080+Montpellier" allowfullscreen>
+            <iframe :src="linkMaps" allowfullscreen>
             </iframe>
           </div>
         </div>
@@ -95,9 +95,7 @@ export default {
   },
   data() {
     return {
-      name: null,
-      email: null,
-      message: null
+      linkMaps: "https://www.google.com/maps/embed/v1/place?key=" + process.env.APIKEY_GOOGLE_MAPS + "&q=246+Avenue+de+Lodeve,+34080+Montpellier"
     };
   },
   computed: {
