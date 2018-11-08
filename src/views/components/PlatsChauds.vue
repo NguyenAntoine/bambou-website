@@ -128,11 +128,7 @@ export default {
       porcCaramel: require("@/assets/img/examples/studio-1.jpg"),
       crevettesPiquantes: require("@/assets/img/examples/studio-1.jpg"),
       brochettesPoulet: require("@/assets/img/examples/studio-1.jpg")
-    }
+    };
   }
-}
+};
 </script>
-
-<style scoped>
-
-</style>

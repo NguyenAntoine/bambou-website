@@ -78,11 +78,7 @@ export default {
       nemCrabe: require("@/assets/img/examples/studio-1.jpg"),
       nemPoulet: require("@/assets/img/examples/studio-1.jpg"),
       nemPorc: require("@/assets/img/examples/studio-1.jpg")
-    }
+    };
   }
-}
+};
 </script>
-
-<style scoped>
-
-</style>

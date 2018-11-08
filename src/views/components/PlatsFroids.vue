@@ -43,11 +43,7 @@ export default {
     return {
       rouleau: require("@/assets/img/examples/studio-1.jpg"),
       salade: require("@/assets/img/examples/studio-1.jpg")
-    }
+    };
   }
-}
+};
 </script>
-
-<style scoped>
-
-</style>

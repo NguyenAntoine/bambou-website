@@ -93,11 +93,7 @@ export default {
       raviole: require("@/assets/img/examples/studio-1.jpg"),
       samoussa: require("@/assets/img/examples/studio-1.jpg"),
       beignet: require("@/assets/img/examples/studio-1.jpg")
-    }
+    };
   }
-}
+};
 </script>
-
-<style scoped>
-
-</style>
