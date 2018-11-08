@@ -99,7 +99,7 @@
 
 <script>
 export default {
-  name: "Entrées",
+  name: "Entrees",
   data() {
     return {
       brioche: require("@/assets/img/examples/studio-1.jpg"),

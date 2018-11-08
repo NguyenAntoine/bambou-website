@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  name: "Plats Froids",
+  name: "PlatsFroids",
   data() {
     return {
       rouleau: require("@/assets/img/examples/studio-1.jpg"),

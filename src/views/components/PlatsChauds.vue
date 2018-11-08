@@ -118,7 +118,7 @@
 
 <script>
 export default {
-  name: "Plats Chauds",
+  name: "PlatsChauds",
   data() {
     return {
       vermicelleChinois: require("@/assets/img/examples/studio-1.jpg"),
