@@ -6,7 +6,6 @@
       {'md-card-plain': plain}
     ]">
     <md-card-header slot="header-title">
-
     </md-card-header>
 
     <md-card-content>
@@ -31,7 +30,7 @@
             :key="item"
             v-if="isActivePanel(tabName[index])">
             <slot :name="getTabContent(index + 1)">
-              This is the default text!
+              Description vide.
             </slot>
           </div>
         </div>
@@ -63,7 +62,7 @@ export default {
       this.activePanel = panel;
     },
     isActivePanel(panel) {
-      return this.activePanel == panel;
+      return this.activePanel === panel;
     },
     getColorButton: function(colorButton) {
       return "md-" + colorButton + "";
