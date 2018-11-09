@@ -119,4 +119,12 @@ export default {
     }
   }
 }
+
+@media (max-width: 991px) {
+  .profile-tabs /deep/ {
+    .md-card-tabs .md-list {
+      justify-content: normal;
+    }
+  }
+}
 </style>
