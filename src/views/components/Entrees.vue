@@ -12,7 +12,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Farine de riz, boeuf, champignon noir, saucisson</p>
           </md-card-content>
         </md-card>
       </div>
@@ -27,7 +27,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Pâte de blé, crevette</p>
           </md-card-content>
         </md-card>
       </div>
@@ -42,7 +42,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Pâte de riz, crevette</p>
           </md-card-content>
         </md-card>
       </div>
@@ -59,7 +59,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Feuilleté de blé, boeuf, pomme de terre</p>
           </md-card-content>
         </md-card>
       </div>
@@ -74,7 +74,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Crevette entourée de beignet</p>
           </md-card-content>
         </md-card>
       </div>
@@ -89,7 +89,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Pince entouré de crabe frit</p>
           </md-card-content>
         </md-card>
       </div>

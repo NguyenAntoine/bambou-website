@@ -12,7 +12,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Galette de riz, vermicelle chinois, crevette, champignon noir, oeuf, oignon</p>
           </md-card-content>
         </md-card>
       </div>
@@ -27,7 +27,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Galette de riz, vermicelle chinois, crabe, champignon noir, oeuf, oignon</p>
           </md-card-content>
         </md-card>
       </div>
@@ -42,7 +42,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Galette de riz, vermicelle chinois, poulet, champignon noir, oeuf, oignon</p>
           </md-card-content>
         </md-card>
       </div>
@@ -59,7 +59,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Galette de riz, vermicelle chinois, porc, champignon noir, oeuf, oignon</p>
           </md-card-content>
         </md-card>
       </div>
@@ -74,7 +74,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Galette de riz, vermicelle chinois, champignon noir, oeuf, oignon</p>
           </md-card-content>
         </md-card>
       </div>

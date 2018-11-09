@@ -9,7 +9,7 @@
           <h4 class="card-title">Biscuits aux sésames</h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Biscuit caramelisé avec des sésames</p>
           </md-card-content>
         </md-card>
       </div>
@@ -21,7 +21,7 @@
           <h4 class="card-title">Nougat aux sésames</h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Nougat mou caramelisé</p>
           </md-card-content>
         </md-card>
       </div>
@@ -33,7 +33,7 @@
           <h4 class="card-title">Gâteau chinois soja-coco</h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Gâteau rond avec un mélange de soja et de coco</p>
           </md-card-content>
         </md-card>
       </div>
@@ -47,7 +47,7 @@
           <h4 class="card-title">Boules coco</h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Boules avec des pépipes de coco sur le contour et un coeur fondant à l'intérieur</p>
           </md-card-content>
         </md-card>
       </div>

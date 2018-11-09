@@ -12,7 +12,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Feuille de riz, salade, pâte de riz, menthe, crevette, porc</p>
           </md-card-content>
         </md-card>
       </div>
@@ -27,7 +27,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Carotte, concombre, soja, poivron rouge, poivron vert</p>
           </md-card-content>
         </md-card>
       </div>

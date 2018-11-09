@@ -12,7 +12,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Vermicelle, carotte, champignon noir, poivron vert, poivron rouge, oignon</p>
           </md-card-content>
         </md-card>
       </div>
@@ -27,7 +27,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Vermicelle soja, champignon noir</p>
           </md-card-content>
         </md-card>
       </div>
@@ -42,7 +42,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Brocolis, courgette, carotte, oignon</p>
           </md-card-content>
         </md-card>
       </div>
@@ -59,7 +59,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Riz, carotte, petits pois, jambon, saucisson</p>
           </md-card-content>
         </md-card>
       </div>
@@ -74,7 +74,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Porc avec une sauce caramelisée</p>
           </md-card-content>
         </md-card>
       </div>
@@ -89,7 +89,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Crevette, poivron rouge, oignon</p>
           </md-card-content>
         </md-card>
       </div>
@@ -106,7 +106,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Poulet tendre avec une sauce yakitori</p>
           </md-card-content>
         </md-card>
       </div>

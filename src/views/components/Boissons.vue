@@ -12,7 +12,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Boisson pétillante caféinée et caramelisée</p>
           </md-card-content>
         </md-card>
       </div>
@@ -27,7 +27,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Boisson pétillante caféinée et caramelisée mais avec zero sucre</p>
           </md-card-content>
         </md-card>
       </div>
@@ -42,7 +42,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Boisson pétillante d'orange avec de la pulpe</p>
           </md-card-content>
         </md-card>
       </div>
@@ -59,7 +59,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Thé glacé goût pêche</p>
           </md-card-content>
         </md-card>
       </div>
@@ -74,7 +74,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Boisson sucré goût litchi</p>
           </md-card-content>
         </md-card>
       </div>
@@ -89,7 +89,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Boisson sucré goût fruits de la passion</p>
           </md-card-content>
         </md-card>
       </div>
@@ -106,7 +106,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description">Bière chinoise (5% Alcool)</p>
           </md-card-content>
         </md-card>
       </div>
@@ -121,7 +121,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description"></p>
           </md-card-content>
         </md-card>
       </div>
@@ -136,7 +136,7 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+            <p class="card-description"></p>
           </md-card-content>
         </md-card>
       </div>
