@@ -1,10 +1,10 @@
 <template>
   <div class="desserts">
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="biscuitSesame" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="biscuitSesame" alt="Biscuits aux sésames" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Biscuits aux sésames</h4>
 
@@ -13,10 +13,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="nougat" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="nougat" alt="Nougat aux sésames" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Nougat aux sésames</h4>
 
@@ -25,10 +25,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="gateauChinois" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="gateauChinois" alt="Gâteau chinois soja-coco" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Gâteau chinois soja-coco</h4>
 
@@ -39,10 +39,10 @@
       </div>
     </div>
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="boulesCoco" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="boulesCoco" alt="Boules coco" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Boules coco</h4>
 
@@ -51,8 +51,8 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100"></div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100"></div>
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center"></div>
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center"></div>
     </div>
   </div>
 </template>

@@ -1,10 +1,10 @@
 <template>
   <div class="boissons">
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="coca" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="coca" alt="Coca Cola" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Coca Cola
             <br>
@@ -16,10 +16,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="cocaZero" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="cocaZero" alt="Coca Cola Zero" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Coca Cola Zero
             <br>
@@ -31,10 +31,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="orangina" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="orangina" alt="Orangina" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Orangina
             <br>
@@ -48,10 +48,10 @@
       </div>
     </div>
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="icetea" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="icetea" alt="Ice Tea" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Ice Tea
             <br>
@@ -63,10 +63,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="litchi" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="litchi" alt="Boisson au Litchi" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Boisson au Litchi
             <br>
@@ -78,10 +78,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="fruitsPassion" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="fruitsPassion" alt="Boisson au fruits de la passion" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Boisson au fruits de la passion
             <br>
@@ -95,10 +95,10 @@
       </div>
     </div>
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="biereTsingtao" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="biereTsingtao" alt="Bière Tsingtao" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Bière Tsingtao
             <br>
@@ -110,10 +110,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="vinRouge" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="vinRouge" alt="Vin rouge" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Vin rouge
             <br>
@@ -125,10 +125,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="vinRose" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="vinRose" alt="Vin rosé" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Vin rosé
             <br>

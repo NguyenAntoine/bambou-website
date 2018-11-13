@@ -1,10 +1,10 @@
 <template>
   <div class="plats-froids">
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="rouleau" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="rouleau" alt="Rouleau de printemps" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Rouleau de printemps
             <br>
@@ -16,10 +16,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="salade" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="salade" alt="Salade vietnamienne" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Salade vietnamienne
             <br>
@@ -31,7 +31,7 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100"></div>
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center"></div>
     </div>
   </div>
 </template>

@@ -17,22 +17,22 @@
       </div>
     </parallax>
     <div class="main main-raised">
-      <div class="section section-carousel">
+      <div class="section section-presentation">
         <div class="container">
-          <carousel></carousel>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container text-center">
+          <div class="title">
+            <h2 class="title">Le Bambou</h2>
+          </div>
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center">
-              <h2>Le Bambou</h2>
-              <h4>Situé à Celleneuve, à 10 minutes de Montpellier Centre, le traiteur Le Bambou vous accueille tous les
+              <carousel></carousel>
+              <h4>Situé à Celleneuve, à 10 minutes du centre de Montpellier, le traiteur Le Bambou vous accueille tous les
               jours afin de vous proposer des plats asiatiques avec des spécialités chinoises et vietnamiennes.</h4>
             </div>
           </div>
         </div>
       </div>
+      <plats></plats>
+      <contact></contact>
       <div class="section section-support">
         <div class="container">
           <div class="sharing-area text-center">
@@ -60,10 +60,14 @@
 
 <script>
 import Carousel from "./components/CarouselSection";
+import Plats from "./Menu";
+import Contact from "./Contact";
 
 export default {
   components: {
-    Carousel
+    Carousel,
+    Contact,
+    Plats
   },
   name: "index",
   bodyClass: "index-page",

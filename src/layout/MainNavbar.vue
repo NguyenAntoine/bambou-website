@@ -17,20 +17,6 @@
               <!-- Here you can add your items from the section-start of your toolbar -->
             </mobile-menu>
             <md-list>
-              <md-list-item href="#/">
-                <i class="material-icons">apps</i>
-                <p>Accueil</p>
-              </md-list-item>
-              <md-list-item href="#/menu">
-                <i class="material-icons">restaurant</i>
-                <p>Menu</p>
-              </md-list-item>
-
-              <md-list-item href="#/contact">
-                <i class="material-icons">location_on</i>
-                <p>Contact</p>
-              </md-list-item>
-
               <md-list-item href="https://twitter.com/LeBambou" target="_blank">
                 <i class="fab fa-twitter"></i>
                 <p class="hidden-lg">Twitter</p>

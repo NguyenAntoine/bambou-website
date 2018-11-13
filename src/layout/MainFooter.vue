@@ -1,27 +1,16 @@
 <template>
-    <footer class="footer"
-            :class="{[`footer-${type}`]: type}"
-            :data-background-color="backgroundColor">
-        <div class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https:///presentation.creative-tim.com">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.creative-tim.com/license">
-                            Licenses
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="copyright">
-                &copy; {{year}}, made with <md-icon>favorite</md-icon> by Antoine
-            </div>
-        </div>
-    </footer>
+  <footer class="footer"
+          :class="{[`footer-${type}`]: type}"
+          :data-background-color="backgroundColor">
+    <div class="container">
+      <nav></nav>
+      <div class="copyright">
+        &copy; {{year}}, made with
+        <md-icon>favorite</md-icon>
+        by Antoine
+      </div>
+    </div>
+  </footer>
 </template>
 <script>
 export default {
@@ -36,5 +25,3 @@ export default {
   }
 };
 </script>
-<style>
-</style>

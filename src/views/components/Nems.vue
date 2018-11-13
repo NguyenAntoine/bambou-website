@@ -1,10 +1,10 @@
 <template>
   <div class="nems">
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="nemCrevette" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="nemCrevette" alt="Nem au crevette" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Nem au crevette
             <br>
@@ -16,10 +16,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="nemCrabe" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="nemCrabe" alt="Nem au crabe" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Nem au crabe
             <br>
@@ -31,10 +31,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="nemPoulet" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="nemPoulet" alt="Nem au poulet" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Nem au poulet
             <br>
@@ -48,10 +48,10 @@
       </div>
     </div>
     <div class="md-layout">
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="nemPorc" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="nemPorc" alt="Nem au porc" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Nem au porc
             <br>
@@ -63,10 +63,10 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100">
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
-            <img :src="nemVegetarien" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+            <img :src="nemVegetarien" alt="Nem végétarien" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Nem végétarien
             <br>
@@ -78,7 +78,7 @@
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100"></div>
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center"></div>
     </div>
   </div>
 </template>
