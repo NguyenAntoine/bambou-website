@@ -35,3 +35,10 @@ yarn run build
 # run script docker for windows environment
 .\docker-run.bat
 ```
+
+## Using Google Maps
+
+Please, create a new file `.env` at the root of the project.
+```dotenv
+VUE_APP_APIKEY_GOOGLE_MAPS=YourApikey
+```
