@@ -25,6 +25,8 @@ yarn run install:clean
 ```
 ## Deployment
 
+Running on nginx with a [docker let's encrypt nginx proxy](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion/wiki/Basic-usage)
+
 ``` bash
 # build for production with minification
 yarn run build
