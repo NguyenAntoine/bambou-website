@@ -67,10 +67,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.section {
-  padding: 0;
-}
-
 .profile-tabs /deep/ {
   .md-card-tabs .md-list {
     justify-content: center;
