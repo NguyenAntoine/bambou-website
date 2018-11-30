@@ -11,30 +11,30 @@
           <span class="icon-bar"></span>
         </md-button>
 
-        <!--<div class="md-collapse">-->
-          <!--<div class="md-collapse-wrapper">-->
-            <!--<mobile-menu nav-mobile-section-start="false">-->
-              <!--&lt;!&ndash; Here you can add your items from the section-start of your toolbar &ndash;&gt;-->
-            <!--</mobile-menu>-->
-            <!--<md-list>-->
-              <!--<md-list-item href="https://twitter.com/LeBambou" target="_blank">-->
-                <!--<i class="fab fa-twitter"></i>-->
-                <!--<p class="hidden-lg">Twitter</p>-->
-                <!--<md-tooltip md-direction="bottom">Suivez nous sur Twitter</md-tooltip>-->
-              <!--</md-list-item>-->
-              <!--<md-list-item href="https://www.facebook.com/LeBambou" target="_blank">-->
-                <!--<i class="fab fa-facebook-square"></i>-->
-                <!--<p class="hidden-lg">Facebook</p>-->
-                <!--<md-tooltip md-direction="bottom">Aimez notre page Facebook</md-tooltip>-->
-              <!--</md-list-item>-->
-              <!--<md-list-item href="https://www.instagram.com/LeBambou" target="_blank">-->
-                <!--<i class="fab fa-instagram"></i>-->
-                <!--<p class="hidden-lg">Instagram</p>-->
-                <!--<md-tooltip md-direction="bottom">Suivez nous sur Instagram</md-tooltip>-->
-              <!--</md-list-item>-->
-            <!--</md-list>-->
-          <!--</div>-->
-        <!--</div>-->
+        <div class="md-collapse">
+          <div class="md-collapse-wrapper">
+            <mobile-menu nav-mobile-section-start="false">
+              <!-- Here you can add your items from the section-start of your toolbar -->
+            </mobile-menu>
+            <md-list>
+              <md-list-item href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+                <p class="hidden-lg">Twitter</p>
+                <md-tooltip md-direction="bottom">Suivez nous sur Twitter</md-tooltip>
+              </md-list-item>
+              <md-list-item href="https://www.facebook.com/LeBambou" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+                <p class="hidden-lg">Facebook</p>
+                <md-tooltip md-direction="bottom">Aimez notre page Facebook</md-tooltip>
+              </md-list-item>
+              <md-list-item href="https://www.instagram.com/LeBambou" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <p class="hidden-lg">Instagram</p>
+                <md-tooltip md-direction="bottom">Suivez nous sur Instagram</md-tooltip>
+              </md-list-item>
+            </md-list>
+          </div>
+        </div>
       </div>
     </div>
   </md-toolbar>

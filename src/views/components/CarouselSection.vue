@@ -12,31 +12,12 @@
         navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
         navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>">
         <slide>
-          <div class="carousel-caption">
-            <h4>
-              <md-icon>location_on</md-icon>
-              Somewhere Beyond, United States
-            </h4>
-          </div>
+          <div class="carousel-caption"></div>
           <img :src="carousel1" alt="carousel1">
         </slide>
         <slide>
-          <div class="carousel-caption">
-            <h4>
-              <md-icon>location_on</md-icon>
-              Yellowstone National Park, United States
-            </h4>
-          </div>
+          <div class="carousel-caption"></div>
           <img :src="carousel2" alt="carousel2">
-        </slide>
-        <slide>
-          <div class="carousel-caption">
-            <h4>
-              <md-icon>location_on</md-icon>
-              Yellowstone National Park, United States
-            </h4>
-          </div>
-          <img :src="carousel3" alt="carousel3">
         </slide>
       </carousel>
     </md-card>
@@ -47,9 +28,8 @@
 export default {
   data() {
     return {
-      carousel1: require("@/assets/img/nature-2.jpg"),
-      carousel2: require("@/assets/img/nature.jpg"),
-      carousel3: require("@/assets/img/nature-3.jpg")
+      carousel1: require("@/assets/img/magasin1.png"),
+      carousel2: require("@/assets/img/magasin2.png")
     };
   }
 };

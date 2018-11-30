@@ -17,7 +17,7 @@
       </div>
     </parallax>
     <div class="main main-raised">
-      <div class="section section-presentation">
+      <div class="section section-presentation" id="presentation">
         <div class="container">
           <div class="title">
             <h2 class="title">Le Bambou</h2>
@@ -91,14 +91,6 @@ export default {
     leaf1: {
       type: String,
       default: require("@/assets/img/leaf1.png")
-    },
-    landing: {
-      type: String,
-      default: require("@/assets/img/landing.jpg")
-    },
-    profile: {
-      type: String,
-      default: require("@/assets/img/profile.jpg")
     }
   },
   data() {
