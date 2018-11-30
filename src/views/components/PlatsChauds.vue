@@ -98,6 +98,21 @@
       <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
         <md-card class="md-card-plain">
           <div class="md-layout-item md-size-50 mx-auto">
+            <img :src="pouletAigreDouce" alt="Brochettes de poulet" class="img-raised rounded-circle img-fluid">
+          </div>
+          <h4 class="card-title">Poulet sauce aigre douce
+            <br>
+            <small class="card-description text-muted">Poulet</small>
+          </h4>
+
+          <md-card-content>
+            <p class="card-description">Poulet tendre avec une sauce aigre douce légèrement pimentée</p>
+          </md-card-content>
+        </md-card>
+      </div>
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
+        <md-card class="md-card-plain">
+          <div class="md-layout-item md-size-50 mx-auto">
             <img :src="brochettesPoulet" alt="Brochettes de poulet" class="img-raised rounded-circle img-fluid">
           </div>
           <h4 class="card-title">Brochettes de poulet
@@ -106,12 +121,25 @@
           </h4>
 
           <md-card-content>
-            <p class="card-description">Poulet tendre avec une sauce yakitori</p>
+            <p class="card-description">Brochette de poulets tendres avec une sauce yakitori</p>
           </md-card-content>
         </md-card>
       </div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center"></div>
-      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center"></div>
+      <div class="md-layout-item md-medium-size-33 md-small-size-100 text-center">
+        <md-card class="md-card-plain">
+          <div class="md-layout-item md-size-50 mx-auto">
+            <img :src="soupeRaviolis" alt="Brochettes de poulet" class="img-raised rounded-circle img-fluid">
+          </div>
+          <h4 class="card-title">Soupe de raviolis
+            <br>
+            <small class="card-description text-muted">Crevette</small>
+          </h4>
+
+          <md-card-content>
+            <p class="card-description">Pâte de blé, crevette, céleri, menthe</p>
+          </md-card-content>
+        </md-card>
+      </div>
     </div>
   </div>
 </template>
@@ -127,7 +155,9 @@ export default {
       rizCantonais: require("@/assets/img/examples/studio-1.jpg"),
       porcCaramel: require("@/assets/img/examples/studio-1.jpg"),
       crevettesPiquantes: require("@/assets/img/examples/studio-1.jpg"),
-      brochettesPoulet: require("@/assets/img/examples/studio-1.jpg")
+      pouletAigreDouce: require("@/assets/img/examples/studio-1.jpg"),
+      brochettesPoulet: require("@/assets/img/examples/studio-1.jpg"),
+      soupeRaviolis: require("@/assets/img/examples/studio-1.jpg")
     };
   }
 };

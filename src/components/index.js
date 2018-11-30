@@ -1,5 +1,3 @@
 import Parallax from "./Parallax.vue";
 
-export {
-  Parallax
-};
+export { Parallax };

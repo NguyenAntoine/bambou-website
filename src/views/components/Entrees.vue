@@ -8,11 +8,11 @@
           </div>
           <h4 class="card-title">Brioche à la vapeur
             <br>
-            <small class="card-description text-muted">Boeuf</small>
+            <small class="card-description text-muted">Porc</small>
           </h4>
 
           <md-card-content>
-            <p class="card-description">Farine de riz, boeuf, champignon noir, saucisson</p>
+            <p class="card-description">Farine de riz, porc, champignon noir, saucisson</p>
           </md-card-content>
         </md-card>
       </div>
