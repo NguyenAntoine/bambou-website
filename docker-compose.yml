@@ -1,8 +1,7 @@
 version: "2"
 services:
   web:
-    build:
-      context: .
+    image: bambou-apache2
     expose:
       - 80
     networks:
