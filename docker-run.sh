@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 docker-compose down
-docker rmi bambou-apache2
-docker build -t bambou-apache2 .
+docker rmi bambou-web
+docker build -t bambou-web .
 docker-compose up -d
