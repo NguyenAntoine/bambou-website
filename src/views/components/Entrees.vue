@@ -102,12 +102,12 @@ export default {
   name: "Entrees",
   data() {
     return {
-      brioche: require("@/assets/img/examples/studio-1.jpg"),
-      bouchon: require("@/assets/img/examples/studio-1.jpg"),
-      raviole: require("@/assets/img/examples/studio-1.jpg"),
-      samoussa: require("@/assets/img/examples/studio-1.jpg"),
+      brioche: require("@/assets/img/examples/rouleauPrintemps.jpg"),
+      bouchon: require("@/assets/img/examples/bouchonsCrevettes.jpg"),
+      raviole: require("@/assets/img/examples/bouchonsCrevettes.jpg"),
+      samoussa: require("@/assets/img/examples/samoussa.jpg"),
       beignet: require("@/assets/img/examples/studio-1.jpg"),
-      pincesCrabe: require("@/assets/img/examples/studio-1.jpg")
+      pincesCrabe: require("@/assets/img/examples/nemPoulet.jpg")
     };
   }
 };

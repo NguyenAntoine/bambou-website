@@ -149,13 +149,13 @@ export default {
   name: "PlatsChauds",
   data() {
     return {
-      vermicelleChinois: require("@/assets/img/examples/studio-1.jpg"),
+      vermicelleChinois: require("@/assets/img/examples/vermicelleChinois.jpg"),
       vermicelleChampignonNoir: require("@/assets/img/examples/studio-1.jpg"),
       legumesSautes: require("@/assets/img/examples/studio-1.jpg"),
-      rizCantonais: require("@/assets/img/examples/studio-1.jpg"),
-      porcCaramel: require("@/assets/img/examples/studio-1.jpg"),
-      crevettesPiquantes: require("@/assets/img/examples/studio-1.jpg"),
-      pouletAigreDouce: require("@/assets/img/examples/studio-1.jpg"),
+      rizCantonais: require("@/assets/img/examples/rizCantonais.jpg"),
+      porcCaramel: require("@/assets/img/examples/porcCaramel.jpg"),
+      crevettesPiquantes: require("@/assets/img/examples/crevettesPiquantes.jpg"),
+      pouletAigreDouce: require("@/assets/img/examples/pouletAigreDouce.jpg"),
       brochettesPoulet: require("@/assets/img/examples/studio-1.jpg"),
       soupeRaviolis: require("@/assets/img/examples/studio-1.jpg")
     };
