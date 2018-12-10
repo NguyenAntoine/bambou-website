@@ -1,8 +1,10 @@
 pipeline {
+    agent any
     stages {
         stage('build') {
             steps {
-                sh 'yarn --version'
+                sh 'yarn'
+                sh 'yarn run lint'
             }
         }
     }
