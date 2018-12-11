@@ -60,10 +60,10 @@ pipeline {
 
         stage("SonarQube Quality Gate") {
             when {
-                expression { return "$SONAR_ANALYSIS" == "true" && "$IS_PR" == "false" }
+                expression { return "$SONAR_ANALYSIS" == "true" }
             }
             steps {
-                timeout(time: "$SONAR_TIMEOUT_IN_MINUTES".toInteger(), unit: 'MINUTES') {
+                timeout(time: 1, unit: 'HOURS') {
                     script {
                         def qg = waitForQualityGate()
                         echo "Sonar Quality Gate Status: ${qg.status}"
