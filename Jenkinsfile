@@ -1,10 +1,83 @@
 pipeline {
     agent any
+
+    environment {
+        GITHUB_PROJECT = "NguyenAntoine/bambou-website"
+        GITHUB_TOKEN = credentials('Github-token')
+
+        // Sonar variables
+        SONAR_ANALYSIS = "${SONAR_ENABLED == 'true' && (IS_PR == false || BRANCH_NAME.endsWith(SONAR_ANALYSIS_PR_BRANCH_SUFFIX))}"
+        SONAR_PROJECT = "${GITHUB_PROJECT.substring(GITHUB_PROJECT.indexOf('/') + 1)}.${BRANCH_NAME.replaceAll('[^a-zA-Z0-9_:.-]', '_')}"
+        SONAR_SOURCES = "public,src"
+        SONAR_EXCLUSIONS = "tests/**,dist/**,node_modules/**"
+    }
+
     stages {
-        stage('build') {
+        stage('Printenv') {
+            steps {
+                // print env for build debugging purposes
+                sh 'printenv'
+            }
+        }
+
+        stage('Init Workspace') {
             steps {
                 sh 'yarn'
+            }
+        }
+
+        stage('Check syntax') {
+            steps {
                 sh 'yarn run lint'
+            }
+        }
+
+        stage('SonarQube Analysis') {
+            when {
+                expression { return "$SONAR_ANALYSIS" == "true" }
+            }
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    script {
+                        def scannerHome = tool 'Sonar Default';
+                        def prProperties = "";
+                        if ("$IS_PR" == "true") {
+                            prProperties = " -Dsonar.analysis.mode=preview" +
+                                " -Dsonar.github.repository=$GITHUB_PROJECT" +
+                                " -Dsonar.github.pullRequest=$CHANGE_ID" +
+                                " -Dsonar.github.oauth=$GITHUB_TOKEN" +
+                                " -Dsonar.github.disableInlineComments=true"
+                        }
+                        sh "${scannerHome}/bin/sonar-scanner" +
+                            " -Dsonar.projectKey=$SONAR_PROJECT" +
+                            " -Dsonar.sources=$SONAR_SOURCES" +
+                            " -Dsonar.exclusions=$SONAR_EXCLUSIONS" +
+                            " -Dsonar.sourceEncoding=utf-8" +
+                            prProperties
+                    }
+                }
+            }
+        }
+
+        stage("SonarQube Quality Gate") {
+            when {
+                expression { return "$SONAR_ANALYSIS" == "true" && "$IS_PR" == "false" }
+            }
+            steps {
+                timeout(time: "$SONAR_TIMEOUT_IN_MINUTES".toInteger(), unit: 'MINUTES') {
+                    script {
+                        def qg = waitForQualityGate()
+                        echo "Sonar Quality Gate Status: ${qg.status}"
+                        switch(qg.status) {
+                            case 'WARN':
+                            case 'OK':
+                                break;
+                            default:
+                                error "Pipeline aborted due to quality gate failure: ${qg.status}"
+                                break;
+                        }
+                    }
+                }
             }
         }
     }
