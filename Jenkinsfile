@@ -39,14 +39,11 @@ pipeline {
             steps {
                 withSonarQubeEnv('SonarQube') {
                     script {
-                        def scannerHome = tool 'Sonar Default';
-                        def prProperties = "";
-                        if ("$IS_PR" == "true") {
-                            prProperties = " -Dsonar.analysis.mode=preview" +
-                                " -Dsonar.github.repository=$GITHUB_PROJECT" +
-                                " -Dsonar.github.oauth=$GITHUB_TOKEN" +
-                                " -Dsonar.github.disableInlineComments=true"
-                        }
+                        def scannerHome = tool 'SonarQube Default';
+                        def prProperties = " -Dsonar.analysis.mode=preview" +
+                            " -Dsonar.github.repository=$GITHUB_PROJECT" +
+                            " -Dsonar.github.oauth=$GITHUB_TOKEN" +
+                            " -Dsonar.github.disableInlineComments=true"
                         sh "${scannerHome}/bin/sonar-scanner" +
                             " -Dsonar.projectKey=$SONAR_PROJECT" +
                             " -Dsonar.sources=$SONAR_SOURCES" +
