@@ -48,6 +48,8 @@ pipeline {
                             " -Dsonar.projectKey=$SONAR_PROJECT" +
                             " -Dsonar.sources=$SONAR_SOURCES" +
                             " -Dsonar.exclusions=$SONAR_EXCLUSIONS" +
+                            " -Dsonar.login=$SONAR_LOGIN" +
+                            " -Dsonar.password=$SONAR_PASSWORD" +
                             " -Dsonar.sourceEncoding=utf-8" +
                             prProperties
                     }
