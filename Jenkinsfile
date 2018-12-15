@@ -59,28 +59,26 @@ pipeline {
             }
         }
 
-        stage("SonarQube Quality Gate") {
+        /* stage("SonarQube Quality Gate") {
             when {
                 expression { return "$SONAR_ANALYSIS" == "true" }
             }
             steps {
-                withSonarQubeEnv('SonarQube') {
-                    timeout(time: 1, unit: 'HOURS') {
-                        script {
-                            def qg = waitForQualityGate()
-                            echo "Sonar Quality Gate Status: ${qg.status}"
-                            switch(qg.status) {
-                                case 'WARN':
-                                case 'OK':
-                                    break;
-                                default:
-                                    error "Pipeline aborted due to quality gate failure: ${qg.status}"
-                                    break;
-                            }
+                timeout(time: 1, unit: 'HOURS') {
+                    script {
+                        def qg = waitForQualityGate()
+                        echo "Sonar Quality Gate Status: ${qg.status}"
+                        switch(qg.status) {
+                            case 'WARN':
+                            case 'OK':
+                                break;
+                            default:
+                                error "Pipeline aborted due to quality gate failure: ${qg.status}"
+                                break;
                         }
                     }
                 }
             }
-        }
+        } */
     }
 }
