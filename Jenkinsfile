@@ -10,6 +10,8 @@ pipeline {
         SONAR_PROJECT = "${GITHUB_PROJECT.substring(GITHUB_PROJECT.indexOf('/') + 1)}.${BRANCH_NAME.replaceAll('[^a-zA-Z0-9_:.-]', '_')}"
         SONAR_SOURCES = "public,src"
         SONAR_EXCLUSIONS = "tests/**,dist/**,node_modules/**"
+        SONAR_LOGIN = credentials('SONAR_LOGIN')
+        SONAR_PASSWORD = credentials('SONAR_PASSWORD')
     }
 
     stages {
