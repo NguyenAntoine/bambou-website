@@ -41,8 +41,8 @@ export default {
   name: "PlatsFroids",
   data() {
     return {
-      rouleau: require("@/assets/img/examples/rouleauPrintemps.jpg"),
-      salade: require("@/assets/img/examples/studio-1.jpg")
+      rouleau: require("@/assets/img/menu/rouleauPrintemps.jpg"),
+      salade: require("@/assets/img/menu/studio-1.jpg")
     };
   }
 };

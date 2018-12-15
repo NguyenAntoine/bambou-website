@@ -62,10 +62,10 @@ export default {
   name: "Desserts",
   data() {
     return {
-      biscuitSesame: require("@/assets/img/examples/studio-1.jpg"),
-      nougat: require("@/assets/img/examples/studio-1.jpg"),
-      gateauChinois: require("@/assets/img/examples/studio-1.jpg"),
-      boulesCoco: require("@/assets/img/examples/studio-1.jpg")
+      biscuitSesame: require("@/assets/img/menu/biscuitSesame.jpg"),
+      nougat: require("@/assets/img/menu/nougatSesame.jpg"),
+      gateauChinois: require("@/assets/img/menu/gateauCoco.jpg"),
+      boulesCoco: require("@/assets/img/menu/bouleCoco.jpg")
     };
   }
 };

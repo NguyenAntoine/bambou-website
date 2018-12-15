@@ -149,15 +149,15 @@ export default {
   name: "PlatsChauds",
   data() {
     return {
-      vermicelleChinois: require("@/assets/img/examples/vermicelleChinois.jpg"),
-      vermicelleChampignonNoir: require("@/assets/img/examples/studio-1.jpg"),
-      legumesSautes: require("@/assets/img/examples/studio-1.jpg"),
-      rizCantonais: require("@/assets/img/examples/rizCantonais.jpg"),
-      porcCaramel: require("@/assets/img/examples/porcCaramel.jpg"),
-      crevettesPiquantes: require("@/assets/img/examples/crevettesPiquantes.jpg"),
-      pouletAigreDouce: require("@/assets/img/examples/pouletAigreDouce.jpg"),
-      brochettesPoulet: require("@/assets/img/examples/studio-1.jpg"),
-      soupeRaviolis: require("@/assets/img/examples/studio-1.jpg")
+      vermicelleChinois: require("@/assets/img/menu/vermicelleChinois.jpg"),
+      vermicelleChampignonNoir: require("@/assets/img/menu/studio-1.jpg"),
+      legumesSautes: require("@/assets/img/menu/studio-1.jpg"),
+      rizCantonais: require("@/assets/img/menu/rizCantonais.jpg"),
+      porcCaramel: require("@/assets/img/menu/porcCaramel.jpg"),
+      crevettesPiquantes: require("@/assets/img/menu/crevettesPiquantes.jpg"),
+      pouletAigreDouce: require("@/assets/img/menu/pouletAigreDouce.jpg"),
+      brochettesPoulet: require("@/assets/img/menu/brochettesPoulet.jpg"),
+      soupeRaviolis: require("@/assets/img/menu/studio-1.jpg")
     };
   }
 };

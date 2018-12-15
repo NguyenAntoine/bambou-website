@@ -88,11 +88,11 @@ export default {
   name: "Nems",
   data() {
     return {
-      nemCrevette: require("@/assets/img/examples/nemPoulet.jpg"),
-      nemCrabe: require("@/assets/img/examples/nemPoulet.jpg"),
-      nemPoulet: require("@/assets/img/examples/nemPoulet.jpg"),
-      nemPorc: require("@/assets/img/examples/nemPoulet.jpg"),
-      nemVegetarien: require("@/assets/img/examples/nemPoulet.jpg")
+      nemCrevette: require("@/assets/img/menu/nemCrevette.jpg"),
+      nemCrabe: require("@/assets/img/menu/nemCrabe.jpg"),
+      nemPoulet: require("@/assets/img/menu/nemPoulet.jpg"),
+      nemPorc: require("@/assets/img/menu/nemPorc.jpg"),
+      nemVegetarien: require("@/assets/img/menu/nemPoulet.jpg")
     };
   }
 };
