@@ -1,4 +1,4 @@
-# bambou-website
+# Bambou Website
 
 > Site vitrine pour le traiteur Le Bambou
 
@@ -25,22 +25,20 @@ yarn run install:clean
 ```
 ## Deployment
 
-Running on nginx with a [docker let's encrypt nginx proxy](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion/wiki/Basic-usage)
+Create the `.env` file from [.env.dist](.env.dist) example with the
+environment variables from [docker let's encrypt nginx proxy](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion/wiki/Basic-usage)
 
-``` bash
+```bash
 # build for production with minification
 yarn run build
 
 # run script docker for linux environment
 ./docker-run.sh
-
-# run script docker for windows environment
-.\docker-run.bat
 ```
 
 ## Using Google Maps
 
-Please, create a new file `.env` at the root of the project.
+Please, create a new apikey and set it into the file `.env` at the root of the project.
 ```dotenv
 VUE_APP_APIKEY_GOOGLE_MAPS=YourApikey
 ```

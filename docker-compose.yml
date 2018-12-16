@@ -8,10 +8,8 @@ services:
       - default
       - reverse-proxy
     restart: always
-    environment:
-      - VIRTUAL_HOST=bambou.nguyenantoine.com
-      - LETSENCRYPT_HOST=bambou.nguyenantoine.com
-      - LETSENCRYPT_EMAIL=antoine.ngu@outlook.fr
+    env_file:
+      - .env
 networks:
   reverse-proxy:
     external:
