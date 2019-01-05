@@ -92,7 +92,7 @@ export default {
       nemCrabe: require("@/assets/img/menu/nemCrabe.jpg"),
       nemPoulet: require("@/assets/img/menu/nemPoulet.jpg"),
       nemPorc: require("@/assets/img/menu/nemPorc.jpg"),
-      nemVegetarien: require("@/assets/img/menu/nemPoulet.jpg")
+      nemVegetarien: require("@/assets/img/menu/nemVegetarien.jpg")
     };
   }
 };

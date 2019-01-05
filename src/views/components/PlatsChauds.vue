@@ -150,8 +150,8 @@ export default {
   data() {
     return {
       vermicelleChinois: require("@/assets/img/menu/vermicelleChinois.jpg"),
-      vermicelleChampignonNoir: require("@/assets/img/menu/studio-1.jpg"),
-      legumesSautes: require("@/assets/img/menu/studio-1.jpg"),
+      vermicelleChampignonNoir: require("@/assets/img/menu/vermicelleChampignonNoir.jpg"),
+      legumesSautes: require("@/assets/img/menu/legumesWok.jpg"),
       rizCantonais: require("@/assets/img/menu/rizCantonais.jpg"),
       porcCaramel: require("@/assets/img/menu/porcCaramel.jpg"),
       crevettesPiquantes: require("@/assets/img/menu/crevettesPiquantes.jpg"),
