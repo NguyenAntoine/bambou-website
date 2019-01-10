@@ -1,6 +1,7 @@
 version: "2"
 services:
   web:
+    build: .
     image: bambou-web
     expose:
       - 80
